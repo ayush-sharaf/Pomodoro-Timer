@@ -2,16 +2,18 @@
 
 A sleek and interactive Pomodoro Timer built with React and Next.js. This application helps you manage your work sessions and breaks effectively using the Pomodoro Technique.
 
-![Pomodoro Timer Screenshot]()
+#Live Project
+
+Here is the deployed version of the tool `https://pomodoro-timer-tan.vercel.app/`
+
+![Pomodoro Timer Screenshot](sample.png)
 
 ## Features
 
 - 25-minute work sessions and 5-minute break sessions
 - Visual clock face with minute and second hands
-- 60 division marks on the clock face for precise time tracking
 - Start, stop, and reset functionality
 - Automatic switching between work and break sessions
-- Browser notifications when sessions end
 - Responsive design
 
 ## Technologies Used
@@ -78,11 +80,7 @@ You can easily customize the work and break durations by modifying the `workTime
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
-
 ## Acknowledgements
 
-- This project was inspired by the Pomodoro Technique developed by Francesco Cirillo.
+- This project was inspired by the Pomodoro Technique developed by Ayush Kumar Sharaf.
 - Clock face design inspired by traditional analog clocks.
