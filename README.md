@@ -2,9 +2,9 @@
 
 A sleek and interactive Pomodoro Timer built with React and Next.js. This application helps you manage your work sessions and breaks effectively using the Pomodoro Technique.
 
-#Live Project
+# Live Project
 
-Here is the deployed version of the tool `https://pomodoro-timer-tan.vercel.app/`
+Here is the deployed version of the tool [Pomodoro Timer](https://pomodoro-timer-tan.vercel.app/)
 
 ![Pomodoro Timer Screenshot](sample.png)
 
@@ -33,7 +33,7 @@ Here is the deployed version of the tool `https://pomodoro-timer-tan.vercel.app/
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/pomodoro-timer.git
+   git clone https://github.com/ayush-sharaf/Pomodoro-Timer.git
    ```
 
 2. Navigate to the project directory:
