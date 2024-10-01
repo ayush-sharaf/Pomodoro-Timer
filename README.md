@@ -1,36 +1,88 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Pomodoro Timer
+
+A sleek and interactive Pomodoro Timer built with React and Next.js. This application helps you manage your work sessions and breaks effectively using the Pomodoro Technique.
+
+![Pomodoro Timer Screenshot]()
+
+## Features
+
+- 25-minute work sessions and 5-minute break sessions
+- Visual clock face with minute and second hands
+- 60 division marks on the clock face for precise time tracking
+- Start, stop, and reset functionality
+- Automatic switching between work and break sessions
+- Browser notifications when sessions end
+- Responsive design
+
+## Technologies Used
+
+- React
+- Next.js
+- Tailwind CSS
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Node.js (v14 or later)
+- npm or yarn
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Installation
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+1. Clone the repository:
+   ```
+   git clone https://github.com/yourusername/pomodoro-timer.git
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+2. Navigate to the project directory:
+   ```
+   cd pomodoro-timer
+   ```
 
-## Learn More
+3. Install dependencies:
+   ```
+   npm install
+   ```
+   or if you're using yarn:
+   ```
+   yarn install
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+### Running the Application
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Start the development server:
+   ```
+   npm run dev
+   ```
+   or with yarn:
+   ```
+   yarn dev
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+2. Open your browser and visit `http://localhost:3000`
 
-## Deploy on Vercel
+## Usage
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. When you open the application, you'll see the timer set to 25 minutes for a work session.
+2. Click the "Start" button to begin the timer.
+3. The clock hands will move to show the remaining time visually.
+4. When the work session ends, a notification will appear (if permitted), and the break session will start automatically.
+5. You can stop the timer at any time by clicking the "Stop" button.
+6. To reset the timer to the beginning of a work session, click the "Reset" button.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Customization
+
+You can easily customize the work and break durations by modifying the `workTime` and `breakTime` constants in the `Home` component.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## Acknowledgements
+
+- This project was inspired by the Pomodoro Technique developed by Francesco Cirillo.
+- Clock face design inspired by traditional analog clocks.
