@@ -38,7 +38,7 @@ Here is the deployed version of the tool [Pomodoro Timer](https://pomodoro-timer
 
 2. Navigate to the project directory:
    ```
-   cd pomodoro-timer
+   cd Pomodoro-Timer
    ```
 
 3. Install dependencies:
