@@ -26,7 +26,7 @@ Here is the deployed version of the tool [Pomodoro Timer](https://pomodoro-timer
 
 ### Prerequisites
 
-- Node.js (v14 or later)
+- Node.js 18.17 or later
 - npm or yarn
 
 ### Installation
@@ -82,5 +82,5 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## Acknowledgements
 
-- This project was inspired by the Pomodoro Technique developed by Ayush Kumar Sharaf.
+- This project was inspired by the Pomodoro Technique, created by Francesco Cirillo.
 - Clock face design inspired by traditional analog clocks.
